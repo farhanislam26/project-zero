@@ -8,6 +8,7 @@ app.use(express.static('images'));
 app.use(express.static('styles'));
 app.use(express.static('scripts'));
 
+
 app.set('view engine','nunjucks');
 nunjucks.configure('templates', {
   autoescape: true,
@@ -98,9 +99,6 @@ app.route('/')
   .get((req, res) => {
     res.render('sixthbook');
   })
-
-  
-
 
 
 app.listen(5050);
