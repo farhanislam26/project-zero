@@ -1,0 +1,23 @@
+{% extends 'header-footer.nunjucks' %}
+
+{% block main %}
+  <p id="pit"></p>
+
+  <section class="col-sm-4">
+    <p id="pit"></p>
+    <figure>
+        <img src="images/image2.jpg" alt="book2" class="img-responsive">
+    </figure>
+    <p id="mit"></p>
+  </section>
+
+  <section class="col-sm-4">
+      <p id="mit"></p>
+    <h4><b>Description</b></h4>
+    <p>"Reinforces students' development of 21st century skills including data interpretation and analysis, problem solving and quantitative reasoning, applying conceptual understanding to new situations and peer-to-peer collaboration. Nivaldo Tro presents chemistry visually through multi-level images--acroscopic, molecular, and symbolic representations--helping students see the connections between the world they see around them (macroscopic), the atoms and molecules that compose the world (molecular), and the formulas they write down on paper (symbolic)."--Publisher's description.</p>
+    <p id="knit"></p>
+    <p><b>Price: </b>75.99 <button type="button" id="add-book2">Add to Cart</button> </p>
+  </section>
+
+  <p id="knit"></p>
+  {% endblock %} 

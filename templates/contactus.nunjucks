@@ -1,0 +1,31 @@
+{% extends 'header-footer.nunjucks' %}
+
+{% block main %}
+<main id='things' class="row">
+      <h2 class="col-sm-12">Contact Us</h2>
+      <section id="things" class="text-center">
+      <form action="" class="col-sm-6">
+        <label for="">Name</label>
+        <input type="text" id="name" name="name" class="form-control">
+        <label for="">Email</label>
+        <input type="text" id="email" name="email" class="form-control">
+        <label for="">Phone</label>
+        <input type="text" id="phone" name="phone" class="form-control">
+        <label for="">Inquiry</label>
+        <textarea name="description" id="description" cols="30" rows="10" class="form-control"></textarea>
+
+        <button type="reset" class="btn btn-danger">Cancel Your Request</button>
+        <button type="reset" class="btn btn-success"><a href="thank-you.html" style="color:white;">Submit Your Request</a></button>
+      </form>
+      </section> 
+    </main>
+
+    <footer class="row">
+        <nav class="col-sm-6 col-sm-offset-4">
+            <ul class="nav navbar-nav">
+                <li><a href="www.facebook.com"><i class="fab fa-facebook fa-2x"></i></a></li>
+                <li><a href="www.youtube.com"><i class="fab fa-youtube fa-2x"></i></a></li>            
+                <li><a href="www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a></li>
+            </ul>
+        </nav>
+{% endblock %}

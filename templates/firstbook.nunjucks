@@ -1,0 +1,23 @@
+{% extends 'header-footer.nunjucks' %}
+
+{% block main %}
+<p id="pit"></p>
+
+  <section class="col-sm-4">
+    <p id="pit"></p>
+    <figure>
+      <img src="images/image1.jpg" alt="book1" class="img-responsive">
+    </figure>
+    <p id="mit"></p>
+  </section>
+
+  <section class="col-sm-4">
+      <p id="mit"></p>
+    <h4><b>Description</b></h4>
+    <p>Cracking the Coding Interview is here to help you through this process, teaching you what you need to know and enabling you to perform at your very best. I've coached and interviewed hundreds of software engineers. The result is this book.Learn how to uncover the hints and hidden details in a question, discover how to break down a problem into manageable chunks, develop techniques to unstick yourself when stuck, learn (or re-learn) core computer science concepts, and practice on 189 interview questions and solutions.</p>
+    <p id="knit"></p>
+    <p><b>Price: </b>55.99 <button type="button" id="add-book1">Add to Cart</button> </p>
+  </section>
+
+  <p id="knit"></p>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends 'header-footer.nunjucks' %}
+
+{% block main %}
+  <main id='things' class="row">
+      <h2 class="col-sm-12">Enter your username and password to log in</h2>
+      <section id="things" class="text-center">
+      <form action="" class="col-sm-6">
+        <label for="">Username</label>
+        <input type="text" id="Username" name="Username" class="form-control">
+        <label for="">Password</label>
+        <input type="text" id="password" name="password" class="form-control">
+
+
+        <button type="submit" class="btn btn-success"><a href="sign-in2.html" style="color:white;">Sign In</a></button>
+        <a href="sign-up.html"><p>Not a member? Click here to sign up!</p></a> 
+{% endblock %}

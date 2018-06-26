@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>The Fahrenheit Bookstore</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="zero.css">
+</head>
+
+<body class="container-fluid">
+
+  <header class="row jumbotron">
+    <p id="buttons">
+        <button id="button"><a href="sign-in.html" style="color:black">Sign In</a></button>
+      <button id="button2">Cart [0]</button>
+    </p>
+
+    <h1 class="col-sm-4">
+      <a href="zero.html">The Fahrenheit Bookstore</a>
+    </h1>
+
+    <nav class="col-sm-8">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="buybooks.html">Buy Books</a>
+        </li>
+        <li>
+          <a href="sellbooks.html">Sell Books</a>
+        </li>
+        <li>
+          <a href="locations.html">Locations/Hours</a>
+        </li>
+        <li>
+          <a href="about.html">About Us</a>
+        </li>
+        <li>
+            <a href="contactus.html">Contact Us</a>
+          </li> 
+      </ul>
+    </nav>
+
+    <p class="header">
+        <p class="search_bar">
+          <input type="text" name="search" size=40 value="Search by Author, Title, ISBN, or Class">
+          <button type="submit">
+            <i class="fa fa-search"></i>GO</button>
+        </p>
+      </p>
+    </header>
+
+  <p id="pit"></p>
+
+  <section class="col-sm-4">
+    <p id="pit"></p>
+    <figure>
+        <img src="images/image5.jpg" height="725" width="475" alt="book4" class="img-responsive">
+    </figure>
+    <p id="mit"></p>
+  </section>
+
+  <section class="col-sm-4">
+      <p id="mit"></p>
+    <h4><b>Description</b></h4>
+    <p>This book encompasses the extensive work of Dr. Perry and her successful years as a therapist and surgeon, renowned for her expertise in human gait.
+        The text is broken down into four sections: Fundamentals, Normal Gait, Pathological Gait, and Gait Analysis Systems. In addition to the descriptions of the gait functions, a representative group of clinical examples has been included to facilitate the interpretation of the identical gait deviations. The book includes detailed laboratory records and more than 450 expert illustrations and photographs.
+        
+        Gait Analysis is the essential reference for all health care professionals involved in musculoskeletal patient care, and has already been incorporated into many athletic training programs, university physical therapy programs and gait workshops across the country.
+        
+        Special Features
+        
+        Clinical significance of the most common pathological gait patterns. Patient examples to illustrate elements of normal and pathological gait. Over 450 illustrations and photographs with detailed descriptions providing essential information at a glance.
+            <p id="knit"></p>
+    <p><b>Price: </b>92.99 <button type="button" id="add-book5">Add to Cart</button> </p>
+  </section>
+
+  <p id="knit"></p>
+  <footer>
+      <small class="col-sm-12 text-center">
+          copyright &copy; 2018 farhanul islam, all rights reserved.
+          </small>
+  </footer>
+  </body>
+  <script>
+  document.onload(cartCount());
+</script>
+  </html>

@@ -1,0 +1,128 @@
+html {
+  font-size: 10px;
+}
+
+html, body {
+  width: 100%;
+}
+
+body {
+  background-color: skyblue;
+  background-color: #87ceeb;
+  background-color: rgb(135, 206, 235);
+  background-color: hsl(197,71,73);
+  font-family: Jua, Geneva, Tahoma, sans-serif;
+}
+
+#buttons {
+  line-height: 30px;
+  font-size: 8pt;
+  font-family: tahoma;
+  margin-top: 1px;
+  margin-right: 2px;
+  position:absolute;
+  top:0;
+  right:0;
+}
+
+h2 {
+  text-align: center;
+  background-color: darkcyan;
+}
+
+
+header {
+  border: 2px solid teal;
+  position: relative;
+  box-sizing: border-box
+}
+
+#buy-section {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  background-color: darkcyan;
+}
+
+/* #buy {
+  border: 2px solid grey;
+  margin-top: 200px;
+} */
+#spit {
+  margin-bottom: 50px;
+}
+
+form {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#hit {
+  text-align: left;
+  background-color: darkcyan; 
+
+}
+
+#kit {
+  text-align: left;
+  background-color: skyblue;
+}
+
+#pit {
+  margin-bottom: 75px;
+}
+
+#knit {
+  margin-bottom: 150px;
+}
+
+#searchbar {
+  text-align: center;
+}
+
+#search-button {
+  text-align: center;
+}
+
+#search-container {
+  text-align:center;
+}
+
+#mit {
+  margin-top: 75px;
+}
+
+#langly {
+  text-align:left;
+}
+
+
+
+#ironborn {
+  margin-right: 150px;
+}
+
+#patron {
+  margin-bottom: 400px;
+}
+
+#stuff {
+  margin-left: none;
+}
+
+#jit {
+  margin-bottom: 500px;
+}
+
+#things {
+  text-align: center;
+}

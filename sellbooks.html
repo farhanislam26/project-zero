@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>The Fahrenheit Bookstore</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="zero.css">
+</head>
+
+<body class="container-fluid">
+
+  <header class="row jumbotron">
+    <p id="buttons">
+      <button id="button">Sign In</button>
+      <button id="button2">Cart [0]</button>
+    </p>
+
+    <h1 class="col-sm-4">
+      <a href="zero.html">The Fahrenheit Bookstore</a>
+    </h1>
+
+    <nav class="col-sm-8">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="buybooks.html">Buy Books</a>
+        </li>
+        <li>
+          <a href="sellbooks.html">Sell Books</a>
+        </li>
+        <li>
+          <a href="locations.html">Locations/Hours</a>
+        </li>
+        <li>
+          <a href="about.html">About Us</a>
+        </li>
+        <li>
+            <a href="contactus.html">Contact Us</a>
+          </li> 
+      </ul>
+    </nav>
+
+    <p class="header">
+      <p class="search_bar">
+        <input type="text" name="search" size=40 value="Search by Author, Title, ISBN, or Class">
+        <button type="submit">
+          <i class="fa fa-search"></i>GO</button>
+      </p>
+    </p>
+  </header>
+  <p id="buy">
+    <h2>Book Value</h2>
+    <h3>Cash Now</h3>
+    <p class="buy-section">You can find the Cash Now price by visiting any of our local stores. The Cash Now prices change from day to day so we
+      can only give them to you at the counter.</p>
+    <h3>Advantage</h3>
+    <p class="buy-section">
+      <b>Find an Advantage "You Get" Price</b>
+    </p>
+    <p class="buy-section">Ready to find out how much more money you can get from Advantage? Enter the class number (Ex. CCJS100), the book author's
+      last name, or ISBN and we'll find the "You Get" price for your book.
+    </p>
+    <p class="buy-section">The ISBN is a unique thirteen or ten digit number located on the back of each book to help identify it.</p>
+    <p id="spit"></p>
+  </p>
+  <form action="#">
+    <p>
+      <span>Class</span>
+      <input type="text" placeholder="enter class name">
+    </p>
+    <p>
+      <span>Author</span>
+      <input type="text" placeholder="enter name">
+    </p>
+    <p>
+      <span>ISBN</span>
+      <input type="text" placeholder="enter number">
+    </p>
+    <p>
+      <span>School</span>
+      <input type="text" placeholder="enter school">
+    </p>
+   <button id="ready" onclick="document.getElementById('demo').innerHTML = getRndInteger(55.9,105.9)">Ready</button>
+    <p class="alert" id="demo"></p>
+    <script>
+function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min)) + min;
+}
+</script>
+  </form>
+
+  <p id="knit"></p>
+
+
+						<small class="col-sm-12 text-center">
+								copyright &copy; 2018 farhanul islam, all rights reserved.
+							  </small>
+							</footer>
+
+</body>
+
+<script>zero.js</script>
+
+</html>

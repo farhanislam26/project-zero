@@ -1,0 +1,23 @@
+{% extends 'header-footer.nunjucks' %}
+
+{% block main %}
+  <main id='things' class="row">
+      <h2 class="col-sm-12">Sign up with us</h2>
+      <section id="things" class="text-center">
+      <form action="" class="col-sm-6">
+        <label for="">E-mail</label>
+        <input type="text" id="E-mail" name="E-mail" class="form-control">
+        <label for="">Username</label>
+        <input type="text" id="Username" name="Username" class="form-control">
+        <label for="">Password</label>
+        <input type="text" id="password" name="password" class="form-control">
+        <label for="">Confirm Password</label>
+        <input type="text" id="password" name="password" class="form-control">
+
+
+        <button type="reset" class="btn btn-success"><a href="sign-up2.html" style="color:white;">Sign Up</a></button>
+
+      </form>
+      </section> 
+    </main>
+{% endblock %}

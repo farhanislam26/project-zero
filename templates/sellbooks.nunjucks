@@ -1,0 +1,46 @@
+{% extends 'header-footer.nunjucks' %}
+
+{% block main %}
+  <p id="buy">
+    <h2>Book Value</h2>
+    <h3>Cash Now</h3>
+    <p class="buy-section">You can find the Cash Now price by visiting any of our local stores. The Cash Now prices change from day to day so we
+      can only give them to you at the counter.</p>
+    <h3>Advantage</h3>
+    <p class="buy-section">
+      <b>Find an Advantage "You Get" Price</b>
+    </p>
+    <p class="buy-section">Ready to find out how much more money you can get from Advantage? Enter the class number (Ex. CCJS100), the book author's
+      last name, or ISBN and we'll find the "You Get" price for your book.
+    </p>
+    <p class="buy-section">The ISBN is a unique thirteen or ten digit number located on the back of each book to help identify it.</p>
+    <p id="spit"></p>
+  </p>
+  <form action="#">
+    <p>
+      <span>Class</span>
+      <input type="text" placeholder="enter class name">
+    </p>
+    <p>
+      <span>Author</span>
+      <input type="text" placeholder="enter name">
+    </p>
+    <p>
+      <span>ISBN</span>
+      <input type="text" placeholder="enter number">
+    </p>
+    <p>
+      <span>School</span>
+      <input type="text" placeholder="enter school">
+    </p>
+   <button id="ready" onclick="document.getElementById('demo').innerHTML = getRndInteger(55.9,105.9)">Ready</button>
+    <p class="alert" id="demo"></p>
+    <script>
+function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min)) + min;
+}
+</script>
+  </form>
+
+  <p id="knit"></p>
+{% endblock %}

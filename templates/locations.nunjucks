@@ -1,0 +1,152 @@
+{% extends 'header-footer.nunjucks' %}
+
+{% block main %}
+<h1>Locations</h1>
+
+  <h2 id="hit">College Park</h2>
+
+  <section class="container">
+    <p class="row">
+        <ul>
+          <li><b>Store Hours:</b></li>
+          <li> Monday 10:00am-7:00pm</li>
+          <li> Tuesday 10:00am-7:00pm</li>
+          <li> Wednesday 10:00am-7:00pm</li>
+          <li>Thursday 10:00am-7:00pm</li>
+          <li> Friday 10:00am-5:00pm</li>
+          <li> Saturday 12:00pm-5:00pm</li>
+          <li> Sunday 12:00pm-5:00pm</li>
+        </ul>
+      </p>
+
+      <p>
+          <b>Destination:</b>
+          7417 Baltimore Avenue
+          College Park, MD 20740
+      </p>
+    </p>
+  </section>
+
+  <h2 id="hit">Towson</h2>
+
+  <section class="container">
+    <p class="row">
+        <ul>
+          <li><b>Store Hours:</b></li>
+          <li> Monday 10:00am-7:00pm</li>
+          <li> Tuesday 10:00am-7:00pm</li>
+          <li> Wednesday 10:00am-7:00pm</li>
+          <li>Thursday 10:00am-7:00pm</li>
+          <li> Friday 10:00am-5:00pm</li>
+          <li> Saturday 12:00pm-5:00pm</li>
+          <li> Sunday 12:00pm-5:00pm</li>
+        </ul>
+      </p>
+
+      <p>
+          <b>Destination:</b>
+          208 York Rd.
+          Towson, MD 21204
+      </p>
+    </p>
+  </section>
+
+  <h2 id="hit">Blacksburg</h2>
+
+  <section class="container">
+    <p class="row">
+        <ul>
+          <li><b>Store Hours:</b></li>
+          <li> Monday 10:00am-7:00pm</li>
+          <li> Tuesday 10:00am-7:00pm</li>
+          <li> Wednesday 10:00am-7:00pm</li>
+          <li>Thursday 10:00am-7:00pm</li>
+          <li> Friday 10:00am-5:00pm</li>
+          <li> Saturday 12:00pm-5:00pm</li>
+          <li> Sunday 12:00pm-5:00pm</li>
+        </ul>
+      </p>
+
+      <p>
+          <b>Destination:</b>
+          125 N Main St.
+          Blacksburg, VA 24060
+      </p>
+    </p>
+  </section>
+
+  <h2 id="hit">Richmond</h2>
+
+  <section class="container">
+    <p class="row">
+        <ul>
+          <li><b>Store Hours:</b></li>
+          <li> Monday 10:00am-7:00pm</li>
+          <li> Tuesday 10:00am-7:00pm</li>
+          <li> Wednesday 10:00am-7:00pm</li>
+          <li>Thursday 10:00am-7:00pm</li>
+          <li> Friday 10:00am-5:00pm</li>
+          <li> Saturday 12:00pm-5:00pm</li>
+          <li> Sunday 12:00pm-5:00pm</li>
+        </ul>
+      </p>
+
+      <p>
+          <b>Destination:</b>
+          720 West Grace St.
+          Richmond, VA 23220
+      </p>
+    </p>
+  </section>
+
+  <h2 id="hit">Morgantown</h2>
+
+  <section class="container">
+    <p class="row">
+        <ul>
+          <li><b>Store Hours:</b></li>
+          <li> Monday 10:00am-7:00pm</li>
+          <li> Tuesday 10:00am-7:00pm</li>
+          <li> Wednesday 10:00am-7:00pm</li>
+          <li>Thursday 10:00am-7:00pm</li>
+          <li> Friday 10:00am-5:00pm</li>
+          <li> Saturday 12:00pm-5:00pm</li>
+          <li> Sunday 12:00pm-5:00pm</li>
+        </ul>
+      </p>
+
+      <p>
+          <b>Destination:</b>
+          1370 University Ave.
+          Morgantown, WV 26505
+      </p>
+    </p>
+  </section>
+
+  <h2 id="hit">Tampa</h2>
+
+  <section class="container">
+    <p class="row">
+        <ul>
+          <li><b>Store Hours:</b></li>
+          <li> Monday 10:00am-7:00pm</li>
+          <li> Tuesday 10:00am-7:00pm</li>
+          <li> Wednesday 10:00am-7:00pm</li>
+          <li>Thursday 10:00am-7:00pm</li>
+          <li> Friday 10:00am-5:00pm</li>
+          <li> Saturday 12:00pm-5:00pm</li>
+          <li> Sunday 12:00pm-5:00pm</li>
+        </ul>
+      </p>
+
+      <p>
+          <b>Destination:</b>
+          11802 Bruce B Downs Blvd.
+          Tampa, FL 33612
+      </p>
+    </p>
+  </section>
+
+
+  <p id="knit"></p>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends 'header-footer.nunjucks' %}
+
+{% block main %}
+<section id="ironborn" class="text-center">
+			<h1>Enter a book, then press Search!</h1>
+			<input  id="searchbar" placeholder="Book info">
+			<button id="search-button" type="button">Search</button>
+		</section>
+
+		<!-- THE RESULTS FROM THE SEARCH GOES INSIDE THIS CONTAINER -->
+		<p id="book-results"></p>
+	</body>
+
+  <script src="zero.js"></script>
+  
+  <p id="jit"></p> 
+{% endblock %}

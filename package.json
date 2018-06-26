@@ -1,0 +1,24 @@
+{
+  "name": "project_zero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zero.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node scripts/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farhanislam26/project-zero.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farhanislam26/project-zero/issues"
+  },
+  "homepage": "https://github.com/farhanislam26/project-zero#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "nunjucks": "^3.1.3"
+  }
+}

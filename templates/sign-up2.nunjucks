@@ -1,0 +1,7 @@
+{% extends 'header-footer.nunjucks' %}
+
+{% block main %}
+  <h1 id="langly">You have successfully created an account. </h1>
+
+  <p id="patron"></p>
+{% endblock %}

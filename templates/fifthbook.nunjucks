@@ -1,0 +1,30 @@
+{% extends 'header-footer.nunjucks' %}
+
+{% block main %}
+  <p id="pit"></p>
+
+  <section class="col-sm-4">
+    <p id="pit"></p>
+    <figure>
+        <img src="images/image5.jpg" height="725" width="475" alt="book4" class="img-responsive">
+    </figure>
+    <p id="mit"></p>
+  </section>
+
+  <section class="col-sm-4">
+      <p id="mit"></p>
+    <h4><b>Description</b></h4>
+    <p>This book encompasses the extensive work of Dr. Perry and her successful years as a therapist and surgeon, renowned for her expertise in human gait.
+        The text is broken down into four sections: Fundamentals, Normal Gait, Pathological Gait, and Gait Analysis Systems. In addition to the descriptions of the gait functions, a representative group of clinical examples has been included to facilitate the interpretation of the identical gait deviations. The book includes detailed laboratory records and more than 450 expert illustrations and photographs.
+        
+        Gait Analysis is the essential reference for all health care professionals involved in musculoskeletal patient care, and has already been incorporated into many athletic training programs, university physical therapy programs and gait workshops across the country.
+        
+        Special Features
+        
+        Clinical significance of the most common pathological gait patterns. Patient examples to illustrate elements of normal and pathological gait. Over 450 illustrations and photographs with detailed descriptions providing essential information at a glance.
+            <p id="knit"></p>
+    <p><b>Price: </b>92.99 <button type="button" id="add-book5">Add to Cart</button> </p>
+  </section>
+
+  <p id="knit"></p>
+{% endblock %}

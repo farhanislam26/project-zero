@@ -1,0 +1,7 @@
+{% extends 'header-footer.nunjucks' %}
+
+{% block main %}
+  <h1 id="langly">Thank you for submitting your inquiry. A team member will respond as soon as possible. </h1>
+
+  <p id="patron"></p>
+{% endblock %}

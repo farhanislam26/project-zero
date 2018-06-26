@@ -1,0 +1,23 @@
+{% extends 'header-footer.nunjucks' %}
+
+{% block main %}
+
+  <p id="pit"></p>
+
+  <section id="stuff" class="col-sm-4">
+    <p id="pit"></p>
+    <figure>
+        <img src="images/image3.jpg" alt="book3" class="img-responsive">
+    </figure>
+    <p id="mit"></p>
+  </section>
+
+  <section id="stuff" class="col-sm-4">
+      <p id="mit"></p>
+    <h4><b>Description</b></h4>
+    <p>"This book is suited for an Intermediate Microeconomics course where calculus is required. Introduction to Economic Analysis presents standard intermediate microeconomics material and some material that, in the authors' view, ought to be standard but is not. Introductory economics material is integrated. Standard mathematical tools, including calculus, are used throughout. The book easily serves as an intermediate microeconomics text, and can be used for a relatively sophisticated undergraduate who has not taken a basic university course in economics."--Open Textbook Library.</p>
+    <p id="knit"></p>
+    <p><b>Price: </b>63.99 <button type="button" id="add-book3">Add to Cart</button> </p>
+  </section>
+  <p id="knit"></p>
+{% endblock %}
